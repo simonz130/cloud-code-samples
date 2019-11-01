@@ -2,10 +2,6 @@
 
 Kickstart microservices application development in nodejs
 
-Try it now:
-
-[![Open in Cloud Code](http://gstatic.com/cloudssh/images/open-btn.svg)](vscode://googlecloudtools.cloudcode/shell?repo=https://github.com/GoogleCloudPlatform/cloud-code-samples.git&subpath=/nodejs/nodejs-guestbook)
-
 ## Overview
 
 The application consists of 3 microservices:
@@ -29,6 +25,10 @@ The sample is best experienced using one of the IDEs supported by [Cloud Code](h
 
 > NOTE: If using VSCode, Cloud Code can handle all prerequisites installation.
 ----
+
+## Developer Workflow with Cloud Code
+
+![Developer Workflow with Cloud Code](./img/CloudCodeDeveloperWorkflow.svg)
 
 ## Configuration
 
@@ -67,10 +67,12 @@ Hit F5 to start remote debugging.
 
 More details and troubleshooting [here](https://cloud.google.com/code/docs/vscode/debug).
 
-## Build & Deploy
+## Build & Run
 
 ### Using Cloud Code
+
 ![Deploy the app](https://cloud.google.com/code/docs/vscode/images/regular-deploy-workflow.gif)
+
 Full details [here](https://cloud.google.com/code/docs/vscode/deploying-an-application).
 
 ### Using Command Line
